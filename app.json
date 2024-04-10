@@ -25,7 +25,7 @@
          "plan": "heroku-postgresql"
       }
    ],
-  "repository": "https://github.com/ebn_masr/Boda",
+  "repository": "https://github.com/source-ahmed/tawa",
   "env": {
   "TOKEN":{
   "description":"توكن بوتك",
