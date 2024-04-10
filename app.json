@@ -1,0 +1,37 @@
+{
+  "name": "بوت تواصل",
+  "description": "Telegram Bot",
+  "logo": "https://telegra.ph/file/f56c2e9a62ad563b844b3.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  },
+  "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+  "repository": "https://github.com/ebn_masr/Boda",
+  "env": {
+  "TOKEN":{
+  "description":"توكن بوتك",
+  "value":"",
+  "required":true
+  }
+ }
+}
+
